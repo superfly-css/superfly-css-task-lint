@@ -1,0 +1,37 @@
+{
+  "name": "superfly-css-task-lint",
+  "version": "0.0.0",
+  "description": "Lints built superfly-css modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-task-lint.git"
+  },
+  "keywords": [
+    "css",
+    "lint",
+    "stylelint",
+    "gulp",
+    "postcss",
+    "superfly-css"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-task-lint/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-task-lint#readme",
+  "dependencies": {
+    "gulp-postcss": "^6.3.0",
+    "postcss-reporter": "^3.0.0",
+    "stylelint": "^7.8.0",
+    "superfly-css-pli": "0.0.7",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "peerDependencies": {
+    "gulp": "3.x"
+  }
+}
