@@ -12,10 +12,8 @@ var processors = [stylelint(stylelint_config), postcss_reporter({
 
 gulp.task('lint:css', function() {
   gulp.src(PLI.TARGET_MAIN_CSS)
-    .pipe(postcss(linter))
-    .pipe(gulp.dest(PLI.target.main.css));
+    .pipe(postcss(linter));
 
   return gulp.src(PLI.TARGET_TEST_CSS)
-    .pipe(postcss(linter))
-    .pipe(gulp.dest(PLI.target.test.css));
+    .pipe(postcss(linter));
 });
