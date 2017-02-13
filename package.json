@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-task-lint",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Lints built superfly-css modules",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "gulp-postcss": "^6.3.0",
     "postcss-reporter": "^3.0.0",
     "stylelint": "^7.8.0",
-    "superfly-css-pli": "0.0.8",
+    "superfly-css-pli": "^0.0.8",
     "stylelint-config-standard": "^16.0.0"
   },
   "peerDependencies": {
