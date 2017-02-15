@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-task-lint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lints built superfly-css modules after performing autocorretion",
   "main": "index.js",
   "scripts": {

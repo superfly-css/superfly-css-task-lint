@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var stylefmt = require('gulp-stylefmt');
 var postcss_reporter = require('postcss-reporter');
 var stylelint = require('stylelint');
 var stylelint_config = require('stylelint-config-standard');
@@ -12,9 +11,6 @@ var processors = [stylelint(stylelint_config), postcss_reporter({
 })];
 
 gulp.task('lint:css', function() {
-  gulp.src(PLI.TARGET_MAIN_CSS)
-    .pipe(stylefmt())
-    .pipe(postcss(processors));
-  return gulp.src(PLI.TARGET_TEST_CSS)
+  return gulp.src(PLI.TARGET_MAIN_CSS)
     .pipe(postcss(processors));
 });
